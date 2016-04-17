@@ -1,0 +1,108 @@
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    FONTS
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+@import url(https://fonts.googleapis.com/css?family=Sancreek);
+@import url(https://fonts.googleapis.com/css?family=Sancreek|Slabo+27px);
+.sancreek {
+  font-family: "Sancreek", cursive; }
+
+.slabo {
+  font-family: "Slabo 27px", serif; }
+
+.center_text {
+  text-align: center; }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    COLOR SCHEME
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    UNIVERSAL
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+html, body {
+  height: 100%;
+  min-height: 100%;
+  display: block;
+  font-family: "Sancreek", cursive;
+  background: url("../images/cheap_diagonal_fabric.png");
+  background-attachment: fixed;
+  overflow-x: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Sancreek", cursive;
+  font-weight: 700; }
+
+h1 {
+  font-size: 10vw;
+  margin: 2% 0; }
+
+h2 {
+  font-size: 8vw;
+  margin: 2% 0; }
+
+h3 {
+  font-size: 6vw;
+  margin: 2% 0; }
+
+h4 {
+  font-size: 4vw;
+  margin: 2% 0; }
+
+a {
+  color: #DD423E;
+  transition: all .2s ease-out;
+  text-decoration: none; }
+
+a:hover {
+  color: #3F2C26; }
+
+.full_width {
+  max-width: 100%;
+  height: auto;
+  width: 100%; }
+
+.page_wrap {
+  max-width: 90%;
+  width: 1200px;
+  margin: 0 auto;
+  display: block; }
+
+::-moz-selection {
+  background: #DD423E;
+  color: #3F2C26; }
+
+::selection {
+  background: #DD423E;
+  color: #3F2C26; }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    GITHUB BANNER
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.githubBanner {
+  background: url("../images/linedpaper.png");
+  position: absolute;
+  top: 34px;
+  right: -120px;
+  width: 400px;
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+  box-shadow: 0 0 12px #000; }
+  .githubBanner a {
+    display: inline-block;
+    margin: 0 auto;
+    width: 400px; }
+  .githubBanner a h2 {
+    font-size: 16px; }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    INTRO
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.intro .fa-github-alt {
+  display: block;
+  font-size: 4vw; }
+
+.instructions, .info {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%; }
+
+/*# sourceMappingURL=main.css.map */
